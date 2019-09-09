@@ -20,7 +20,7 @@ const (
 	defaultPageSize = 50
 
 	// max page size
-	maxPageSize = 1000
+	maxPageSize = 20000
 )
 
 var (

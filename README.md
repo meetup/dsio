@@ -19,7 +19,7 @@ like below:
 # Getting Started
 ### Installation
 ```
-go get -u github.com/nshmura/dsio
+go get -u github.com/meetup/dsio
 ```
 
 ### Authentication
@@ -64,8 +64,8 @@ $ dsio upsert filename.yaml -n development
 
 
 ### File format and Samples:
- - [CSV and TSV format](https://github.com/nshmura/dsio/wiki/CSV-and-TSV-Format)
- - [YAML format](https://github.com/nshmura/dsio/wiki/YAML-Format)
+ - [CSV and TSV format](https://github.com/meetup/dsio/wiki/CSV-and-TSV-Format)
+ - [YAML format](https://github.com/meetup/dsio/wiki/YAML-Format)
  - [CSV,TSV,YAML file samples](./samples/)
 
 

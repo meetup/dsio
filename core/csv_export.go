@@ -8,6 +8,7 @@ import (
 	"reflect"
 	"strconv"
 	"time"
+	"regexp"
 
 	"cloud.google.com/go/datastore"
 )
@@ -127,7 +128,11 @@ func (exp *CSVExporter) getValueList(propInfos []PropertyInfo, props []datastore
 			if err != nil {
 				return values, err
 			}
-			values[i] = v
+			var re = regexp.MustCompile("\\n")
+			var input1 = re.ReplaceAllString(v, " ")
+			var re2 = regexp.MustCompile(",")
+			var input2 = re2.ReplaceAllString(input1, " ")
+			values[i] = input2
 		} else {
 			values[i] = ""
 		}
