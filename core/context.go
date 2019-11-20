@@ -20,7 +20,7 @@ type Context struct {
 
 func SetContext(c *cli.Context) Context {
 
-	color.NoColor = c.GlobalBool("no-color")
+	color.NoColor = c.Bool("no-color")
 
 	ctx = Context{
 		ServiceAccountFile: c.String("key-file"),

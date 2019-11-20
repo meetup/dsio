@@ -38,7 +38,7 @@ func Debugf(format string, value ...interface{}) {
 	}
 }
 
-func NewExitError(message interface{}) *cli.ExitError {
+func NewExitError(message interface{}) *cli.exitError {
 	return cli.NewExitError(errors.New(color.RedString("[ERROR] %v", message)), 1)
 }
 
