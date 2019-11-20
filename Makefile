@@ -5,7 +5,7 @@ build:
 
 init:
 	go get golang.org/x/tools/cmd/goyacc
-	go get -u github.com/golang/lint/golint
+	go get -u golang.org/x/lint/golint
 
 fmt:
 	go fmt $$(glide novendor)

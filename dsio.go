@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/nshmura/dsio/action"
+	"github.com/meetup/dsio/action"
 	"github.com/meetup/dsio/core"
 	"github.com/urfave/cli"
 )

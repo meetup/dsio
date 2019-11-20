@@ -11,7 +11,7 @@ import (
 
 	"cloud.google.com/go/datastore"
 	"github.com/meetup/dsio/core"
-	"github.com/nshmura/dsio/gql"
+	"github.com/meetup/dsio/gql"
 	"google.golang.org/api/iterator"
 )
 
