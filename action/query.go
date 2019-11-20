@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"cloud.google.com/go/datastore"
-	"github.com/nshmura/dsio/core"
+	"github.com/meetup/dsio/core"
 	"github.com/nshmura/dsio/gql"
 	"google.golang.org/api/iterator"
 )
